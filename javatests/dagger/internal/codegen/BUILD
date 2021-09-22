@@ -91,7 +91,6 @@ GenJavaTests(
         "@google_bazel_common//third_party/java/auto:value",
         "@google_bazel_common//third_party/java/compile_testing",
         "@google_bazel_common//third_party/java/javapoet",
-        "@google_bazel_common//third_party/java/jsr250_annotations",
         "@google_bazel_common//third_party/java/jsr330_inject",
         "@google_bazel_common//third_party/java/junit",
         "@google_bazel_common//third_party/java/mockito",

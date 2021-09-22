@@ -34,9 +34,6 @@ java_library(
         "//java/dagger/internal/codegen/bootstrap",
     ],
     tags = ["maven_coordinates=com.google.dagger:dagger-compiler:" + POM_VERSION],
-    exports = [
-        "@google_bazel_common//third_party/java/jsr250_annotations",  # Export for @Generated
-    ],
     deps = [
         ":package_info",
         "//java/dagger:core",
@@ -103,7 +100,6 @@ gen_maven_artifact(
         "com.google.guava:failureaccess",
         "com.google.guava:guava",
         "com.squareup:javapoet",
-        "javax.annotation:jsr250-api",
         "javax.inject:javax.inject",
         "net.ltgt.gradle.incap:incap",
         "org.checkerframework:checker-compat-qual",
